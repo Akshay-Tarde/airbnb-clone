@@ -56,3 +56,38 @@ header {
 .subtitle {
     max-width: 300px;
 }
+
+
+/* Card */
+.card-section {
+    margin-top: 2em;
+    padding: 3em;
+    padding-top: 0;
+}
+
+.card-stats {
+    display: flex;
+    align-items: center;
+    width: 176px;
+}
+
+.card-stats>span {
+    margin-right: .5em;
+}
+
+.card>p {
+    margin: .7em 0;
+}
+
+.card-star {
+    width: 14px;
+    margin-right: .5em;
+}
+
+.gray {
+    color: gray;
+}
+
+.bold {
+    font-weight: bold;
+}
