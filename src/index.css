@@ -8,9 +8,17 @@ body {
     line-height: 1.6;
 }
 
+.gray {
+    color: gray;
+}
+
+.bold {
+    font-weight: bold;
+}
+
 /* Layout */
 .container {
-    width: 55%;
+    width: 65%;
     margin: 0 auto;
 }
 
@@ -29,6 +37,7 @@ header {
     max-width: 100px;
     /* object-fit: cover; */
 }
+
 
 /* Hero */
 .hero {
@@ -63,6 +72,8 @@ header {
     margin-top: 2em;
     padding: 3em;
     padding-top: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .card-stats {
@@ -84,10 +95,9 @@ header {
     margin-right: .5em;
 }
 
-.gray {
-    color: gray;
-}
 
-.bold {
-    font-weight: bold;
+.card-image {
+    height: 70%;
+    /* max-width: 176px; */
+    object-fit: cover;
 }
