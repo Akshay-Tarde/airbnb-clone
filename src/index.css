@@ -74,6 +74,13 @@ header {
     padding-top: 0;
     display: flex;
     justify-content: space-between;
+    gap: 20px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.card {
+    width: 176px;
 }
 
 .card-stats {
@@ -97,7 +104,8 @@ header {
 
 
 .card-image {
-    height: 70%;
-    /* max-width: 176px; */
+    width: 100%;
+    max-height: 235px;
+    border-radius: 9px;
     object-fit: cover;
 }
