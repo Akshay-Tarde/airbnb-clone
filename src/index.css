@@ -81,6 +81,17 @@ header {
 
 .card {
     width: 176px;
+    position: relative;
+}
+
+.sold-out {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    font-weight: 700;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0 .5em;
 }
 
 .card-stats {
